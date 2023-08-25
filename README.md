@@ -31,3 +31,4 @@ Nenhuma mensagem vai aparecer.
 Agora vamos enviar o nosso repositório para o repositório remoto.
 
 git push -U origin main
+Foi enviado usando credenciais (token)
