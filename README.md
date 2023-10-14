@@ -33,3 +33,23 @@ Agora vamos enviar o nosso repositório para o repositório remoto.
 git push -U origin main
 Foi enviado usando credenciais (token)
 Terceiro envio
+
+para criar uma nova branch usa-se o seguinte comando:
+
+git checkout -b "novo-botao"
+
+esse comando cria a nova branch e já alterna para ela.
+
+Ao fazer o add, o commit e o push, as alteraçãoes serão feitas somente no novo branch
+git push origin novo-botao.
+
+uma vez que as criações na nova branch foram feitas, é possível passar essas criações para a branch principal com o comando merge.
+
+entra-se na branch principal
+git checkout main
+
+fazemos o comando Merge
+git merge novo-botao
+
+e finalizamos com o push
+git push origin main
