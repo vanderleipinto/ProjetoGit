@@ -55,3 +55,5 @@ e finalizamos com o push
 git push origin main
 
 Continuando estudos do github em https://alunos.b7web.com.br/curso/git/enviando-alteracoes-pro-github
+
+Texto alterado no github.com
